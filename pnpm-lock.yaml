@@ -1,10 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@nanostores/persistent': ^0.7.0
+  '@nanostores/vue': ^0.6.1
   '@tailwindcss/forms': ^0.5.3
   '@tailwindcss/typography': ^0.5.8
+  '@types/node': ^18.11.9
   '@vitejs/plugin-vue': ^3.2.0
   autoprefixer: ^10.4.13
+  nanostores: ^0.7.0
   postcss: ^8.4.19
   tailwindcss: ^3.2.4
   typescript: ^4.8.4
@@ -13,17 +17,21 @@ specifiers:
   vue-tsc: ^1.0.9
 
 dependencies:
+  '@nanostores/persistent': 0.7.0_nanostores@0.7.0
+  '@nanostores/vue': 0.6.1_zzt5tcdxgl3jsilh3f4jgfjwue
+  nanostores: 0.7.0
   vue: 3.2.45
 
 devDependencies:
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.4
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.4
+  '@types/node': 18.11.9
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.3+vue@3.2.45
   autoprefixer: 10.4.13_postcss@8.4.19
   postcss: 8.4.19
   tailwindcss: 3.2.4_postcss@8.4.19
   typescript: 4.8.4
-  vite: 3.2.3
+  vite: 3.2.3_@types+node@18.11.9
   vue-tsc: 1.0.9_typescript@4.8.4
 
 packages:
@@ -69,6 +77,30 @@ packages:
     dev: true
     optional: true
 
+  /@nanostores/persistent/0.7.0_nanostores@0.7.0:
+    resolution: {integrity: sha512-4PAInL/T1hbftZUJ0cmgdFHBMalUoq7BUXFBy7QfyMv/8X3LPTYNh/yxspL7+J+XM3UNvVI7IFRMMs6FBasjhQ==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      nanostores: ^0.7.0
+    dependencies:
+      nanostores: 0.7.0
+    dev: false
+
+  /@nanostores/vue/0.6.1_zzt5tcdxgl3jsilh3f4jgfjwue:
+    resolution: {integrity: sha512-YYFcgpqrne+0xNlhAfxBX1pgtD8NsLQDsAD/SrKaZulR2qnaQ6YwWR7YKXNzWPiuvSyKD71Hv6p6FYnHyivFzA==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+    peerDependencies:
+      '@vue/devtools-api': '>=6.1.4'
+      nanostores: '>=0.7.0'
+      vue: '>=3.2.30'
+    peerDependenciesMeta:
+      '@vue/devtools-api':
+        optional: true
+    dependencies:
+      nanostores: 0.7.0
+      vue: 3.2.45
+    dev: false
+
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -111,6 +143,10 @@ packages:
       tailwindcss: 3.2.4_postcss@8.4.19
     dev: true
 
+  /@types/node/18.11.9:
+    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+    dev: true
+
   /@vitejs/plugin-vue/3.2.0_vite@3.2.3+vue@3.2.45:
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -118,7 +154,7 @@ packages:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.3
+      vite: 3.2.3_@types+node@18.11.9
       vue: 3.2.45
     dev: true
 
@@ -756,6 +792,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  /nanostores/0.7.0:
+    resolution: {integrity: sha512-y+ma9MVXuPzXKEXaRYW/iL/xG/HtMwB8fmFcMfUqt5fCNR/na2kDubbZGV4furUMTgmxfySJs0cQjORWhaPDyA==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+    dev: false
+
   /node-releases/2.0.6:
     resolution: {integrity: sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==}
     dev: true
@@ -993,7 +1034,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite/3.2.3:
+  /vite/3.2.3_@types+node@18.11.9:
     resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -1018,6 +1059,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.11.9
       esbuild: 0.15.13
       postcss: 8.4.19
       resolve: 1.22.1

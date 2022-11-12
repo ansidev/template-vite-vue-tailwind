@@ -2,12 +2,14 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import { ref } from 'vue'
+import Header from '@/components/Header.vue'
 
 const count = ref(0)
 </script>
 
 <template>
-  <div class="container max-w-4xl flex flex-col space-y-4 justify-center items-center h-screen mx-auto">
+  <Header />
+  <div class="container flex flex-col space-y-4 justify-center items-center h-screen mx-auto max-w-xl" style="height: calc(100vh - 84px);">
     <div class="flex justify-center items-center space-x-4">
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -19,11 +21,11 @@ const count = ref(0)
         <img src="./assets/tailwind.svg" class="logo" alt="TailwindCSS logo" />
       </a>
     </div>
-    <h1>Vite + Vue + TailwindCSS</h1>
-    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300" type="button" @click="count++">count is {{ count }}</button>
+    <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
+    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700" type="button" @click="count++">You click this button {{ count }} times</button>
     <p>
       Edit
-      <code class="border rounded p-1 bg-gray-300">src/App.vue</code> to test HMR.
+      <code class="code">src/App.vue</code> to test HMR.
     </p>
     <p>
       Check out
@@ -43,6 +45,11 @@ const count = ref(0)
 a {
   @apply text-blue-500 hover:underline hover:decoration-dotted;
 }
+
+.code {
+  @apply border rounded p-1 bg-gray-300 text-gray-700;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
