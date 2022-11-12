@@ -1,9 +1,4 @@
 <script setup lang="ts">
-import { computed, defineAsyncComponent } from 'vue'
-import { useVModel } from '@nanostores/vue'
-import { settings } from '@/stores/setting'
-
-const BsIcon = defineAsyncComponent(() => import('@/components/BsIcon.vue'))
 const themeSetting = useVModel(settings, 'theme')
 const themeIcon = computed(() => themeSetting.value === 'dark' ? 'moon-fill' : 'sun-fill')
 const changeTheme = () => {

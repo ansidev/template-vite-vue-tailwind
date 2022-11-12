@@ -1,5 +1,3 @@
-import { persistentMap } from '@nanostores/persistent'
-
 export type SettingsValue = {
   theme: 'dark' | 'light'
 }
