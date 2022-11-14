@@ -4,7 +4,7 @@ const count = ref(0)
 
 <template>
   <Header />
-  <div class="container flex flex-col space-y-4 justify-center items-center h-screen mx-auto max-w-xl" style="height: calc(100vh - 84px);">
+  <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl" style="height: calc(100vh - 84px);">
     <div class="flex justify-center items-center space-x-4">
       <a href="https://vitejs.dev" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -18,21 +18,21 @@ const count = ref(0)
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
     <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700" type="button" @click="count++">You click this button {{ count }} times</button>
-    <p>
+    <p class="text-center">
       Edit
       <code class="code">src/App.vue</code> to test HMR.
     </p>
-    <p>
+    <p class="text-center">
       Check out
       <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>,
       the official Vue + Vite starter.
     </p>
-    <p>
+    <p class="text-center">
       Install
       <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
       in your IDE for a better DX.
     </p>
-    <p>Click on the Vite, Vue and TailwindCSS logos to learn more.</p>
+    <p class="text-center">Click on the Vite, Vue and TailwindCSS logos to learn more.</p>
   </div>
 </template>
 
