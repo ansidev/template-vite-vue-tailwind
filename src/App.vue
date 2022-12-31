@@ -40,7 +40,7 @@ const count = ref(0)
 
 <style lang="css">
 a {
-  @apply text-blue-500 hover:underline hover:decoration-dotted;
+  @apply text-blue-800 dark:text-blue-300 underline hover:decoration-dotted;
 }
 
 .code {
