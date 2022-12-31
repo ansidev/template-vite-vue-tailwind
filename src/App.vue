@@ -18,7 +18,8 @@ const count = ref(0)
       </a>
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
-    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700" type="button" @click="count++">You click this button {{ count }} times</button>
+    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700"
+      type="button" aria-label="Counter button" @click="count++">You click this button {{ count }} times</button>
     <p class="text-center">
       Edit
       <code class="code">src/App.vue</code> to test HMR.
