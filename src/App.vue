@@ -10,10 +10,10 @@ const count = ref(0)
         <img src="/vite.svg" class="logo" alt="Vite logo" />
       </a>
       <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo" alt="Vue logo" />
+        <img src="/vue.svg" class="logo" alt="Vue logo" />
       </a>
       <a href="https://tailwindcss.com/" target="_blank">
-        <img src="./assets/tailwind.svg" class="logo" alt="TailwindCSS logo" />
+        <img src="/tailwind.svg" class="logo" alt="TailwindCSS logo" />
       </a>
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
