@@ -15,7 +15,7 @@ const changeTheme = () => {
 </script>
 
 <template>
-  <button type="button" class="p-4" @click="changeTheme">
+  <button type="button" class="p-4" @click="changeTheme" aria-label="Theme switcher button">
     <BsIcon :icon="themeIcon" :size="20" />
   </button>
 </template>

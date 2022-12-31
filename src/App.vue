@@ -4,20 +4,22 @@ const count = ref(0)
 
 <template>
   <Header />
-  <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl" style="height: calc(100vh - 84px);">
+  <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl"
+    style="height: calc(100vh - 84px);">
     <div class="flex justify-center items-center space-x-4">
       <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
+        <img src="/vite.svg" class="logo" alt="Vite logo" width="96" height="96" />
       </a>
       <a href="https://vuejs.org/" target="_blank">
-        <img src="./assets/vue.svg" class="logo" alt="Vue logo" />
+        <img src="/vue.svg" class="logo" alt="Vue logo" width="104" height="96" />
       </a>
       <a href="https://tailwindcss.com/" target="_blank">
-        <img src="./assets/tailwind.svg" class="logo" alt="TailwindCSS logo" />
+        <img src="/tailwind.svg" class="logo" alt="TailwindCSS logo" width="128" height="96" />
       </a>
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
-    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700" type="button" @click="count++">You click this button {{ count }} times</button>
+    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700"
+      type="button" aria-label="Counter button" @click="count++">You click this button {{ count }} times</button>
     <p class="text-center">
       Edit
       <code class="code">src/App.vue</code> to test HMR.
@@ -38,7 +40,7 @@ const count = ref(0)
 
 <style lang="css">
 a {
-  @apply text-blue-500 hover:underline hover:decoration-dotted;
+  @apply text-blue-800 dark:text-blue-300 underline hover:decoration-dotted;
 }
 
 .code {
