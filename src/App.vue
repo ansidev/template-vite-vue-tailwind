@@ -4,16 +4,17 @@ const count = ref(0)
 
 <template>
   <Header />
-  <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl" style="height: calc(100vh - 84px);">
+  <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl"
+    style="height: calc(100vh - 84px);">
     <div class="flex justify-center items-center space-x-4">
       <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
+        <img src="/vite.svg" class="logo" alt="Vite logo" width="96" height="96" />
       </a>
       <a href="https://vuejs.org/" target="_blank">
-        <img src="/vue.svg" class="logo" alt="Vue logo" />
+        <img src="/vue.svg" class="logo" alt="Vue logo" width="104" height="96" />
       </a>
       <a href="https://tailwindcss.com/" target="_blank">
-        <img src="/tailwind.svg" class="logo" alt="TailwindCSS logo" />
+        <img src="/tailwind.svg" class="logo" alt="TailwindCSS logo" width="128" height="96" />
       </a>
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
