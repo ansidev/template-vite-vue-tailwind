@@ -4,13 +4,13 @@ This template should help get you started developing with Vue 3, TailwindCSS and
 
 ## Features
 
-- [Vue 3](https://vuejs.org/).
-- [TailwindCSS](https://tailwindcss.com).
-- [Nano Stores](https://github.com/nanostores/nanostores).
-- Dark Mode.
-- Auto Import.
+- [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
+- [Nano Store](https://github.com/nanostores/nanostores)
+- [Tailwind CSS](https://tailwindcss.com) + [Light/Dark mode](./src/components/ThemeSwitcher.vue)
+- Library and Vue Component auto importing
 - Page Speed Optimized.
 - SEO.
+- Deploy on [Netlify](https://netlify.com), [Vercel](https://vercel.com) zero-config.
 
 ## Recommended IDE Setup
 
@@ -24,14 +24,6 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
-
-## Features
-
-- [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild)
-- [Nano Store](https://github.com/nanostores/nanostores)
-- [Tailwind CSS](https://tailwindcss.com) + [Light/Dark mode](./src/components/ThemeSwitcher.vue)
-- Library and Vue Component auto importing
-- Deploy on [Netlify](https://netlify.com), [Vercel](https://vercel.com) zero-config.
 
 ## Try it now!
 
