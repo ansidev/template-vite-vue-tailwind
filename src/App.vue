@@ -1,4 +1,97 @@
 <script setup lang="ts">
+const title = 'Vite template for Vue 3, TypeScript, and TailwindCSS'
+const description = 'An open-source Vite template for Vue 3, TypeScript and TailwindCSS. Dark mode enabled, auto-import enabled, persistent localStorage enabled using Nano Stores'
+const url = import.meta.env.VITE_BASE_URL
+const imageURL = `${url}/og_image.png`
+const author = 'Tri Le Minh'
+const pubDate = (new Date()).toISOString()
+
+useHead({
+  meta: [
+    {
+      name: 'description',
+      content: description,
+    },
+    {
+      name: 'og:site_name',
+      content: title,
+    },
+    {
+      name: 'og:type',
+      content: 'website',
+    },
+    {
+      name: 'og:url',
+      content: url,
+    },
+    {
+      name: 'og:title',
+      content: title,
+    },
+    {
+      name: 'og:description',
+      content: description,
+    },
+    {
+      name: 'og:image',
+      content: imageURL,
+    },
+    {
+      name: 'og:image:alt',
+      content: description,
+    },
+    {
+      name: 'og:locale',
+      content: 'en',
+    },
+    {
+      name: 'twitter:site',
+      content: '@ansidev',
+    },
+    {
+      name: 'twitter:creator',
+      content: '@ansidev',
+    },
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      name: 'twitter:url',
+      content: url,
+    },
+    {
+      name: 'twitter:title',
+      content: title,
+    },
+    {
+      name: 'twitter:description',
+      content: description,
+    },
+    {
+      name: 'twitter:image:src',
+      content: imageURL,
+    },
+    {
+      name: 'robots',
+      content: 'follow, index',
+    },
+    {
+      name: 'author',
+      content: author,
+    },
+    {
+      name: 'article:published_time',
+      content: pubDate,
+    },
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: url,
+    }
+  ]
+})
 const count = ref(0)
 </script>
 
@@ -7,13 +100,13 @@ const count = ref(0)
   <div class="container flex flex-col space-y-4 justify-center items-center h-screen px-4 mx-auto max-w-xl"
     style="height: calc(100vh - 84px);">
     <div class="flex justify-center items-center space-x-4">
-      <a href="https://vitejs.dev" target="_blank">
+      <a href="https://vitejs.dev" title="Vite logo" target="_blank">
         <img src="/vite.svg" class="logo" alt="Vite logo" width="96" height="96" />
       </a>
-      <a href="https://vuejs.org/" target="_blank">
+      <a href="https://vuejs.org/" title="Vue logo" target="_blank">
         <img src="/vue.svg" class="logo" alt="Vue logo" width="104" height="96" />
       </a>
-      <a href="https://tailwindcss.com/" target="_blank">
+      <a href="https://tailwindcss.com/" title="TailwindCSS logo" target="_blank">
         <img src="/tailwind.svg" class="logo" alt="TailwindCSS logo" width="128" height="96" />
       </a>
     </div>
