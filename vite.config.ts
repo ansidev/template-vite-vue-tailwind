@@ -24,6 +24,12 @@ export default defineConfig({
       imports: [
         'vue',
         {
+          '@vueuse/head': [
+            'createHead',
+            'useHead',
+          ],
+        },
+        {
           '@nanostores/persistent': [
             'persistentAtom',
             'persistentMap',
