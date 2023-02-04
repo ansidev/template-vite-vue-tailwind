@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nanostores/persistent': ^0.7.0
-  '@nanostores/vue': ^0.6.1
+  '@nanostores/vue': ^0.7.0
   '@tailwindcss/forms': ^0.5.3
   '@tailwindcss/typography': ^0.5.9
   '@types/node': ^18.11.18
@@ -21,7 +21,7 @@ specifiers:
 
 dependencies:
   '@nanostores/persistent': 0.7.0_nanostores@0.7.1
-  '@nanostores/vue': 0.6.1_tnmprsfnlyw4kcmtay2p7ledhm
+  '@nanostores/vue': 0.7.0_tnmprsfnlyw4kcmtay2p7ledhm
   '@vueuse/head': 1.0.23_vue@3.2.45
   nanostores: 0.7.1
   vue: 3.2.45
@@ -502,12 +502,12 @@ packages:
       nanostores: 0.7.1
     dev: false
 
-  /@nanostores/vue/0.6.1_tnmprsfnlyw4kcmtay2p7ledhm:
-    resolution: {integrity: sha512-YYFcgpqrne+0xNlhAfxBX1pgtD8NsLQDsAD/SrKaZulR2qnaQ6YwWR7YKXNzWPiuvSyKD71Hv6p6FYnHyivFzA==}
+  /@nanostores/vue/0.7.0_tnmprsfnlyw4kcmtay2p7ledhm:
+    resolution: {integrity: sha512-xQiiMlj0dFTAgjxXahPQQcGit7HpTo/lHKwAXg8yRyC6IkoB55tCsRBbAouMLSB4bdBoCgCmuKWcv7MRX1t9Zw==}
     engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     peerDependencies:
       '@vue/devtools-api': '>=6.1.4'
-      nanostores: '>=0.7.0'
+      nanostores: '>=0.7.3'
       vue: '>=3.2.30'
     peerDependenciesMeta:
       '@vue/devtools-api':
