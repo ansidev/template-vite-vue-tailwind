@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nanostores/persistent": "^0.7.0",
+    "@nanostores/persistent": "^0.8.0",
     "@nanostores/vue": "^0.7.0",
     "@vueuse/head": "^1.0.23",
     "nanostores": "^0.7.1",
