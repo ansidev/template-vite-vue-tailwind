@@ -1,0 +1,6 @@
+version: "3"
+
+includes:
+  site: ./.taskfiles/task_site.yaml
+  git: ./.taskfiles/task_git.yaml
+  dep: ./.taskfiles/task_dep.yaml
