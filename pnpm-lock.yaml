@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@nanostores/persistent':
-    specifier: ^0.8.0
-    version: 0.8.0(nanostores@0.8.0)
+    specifier: ^0.9.0
+    version: 0.9.0(nanostores@0.8.0)
   '@nanostores/vue':
     specifier: ^0.8.0
     version: 0.8.0(nanostores@0.8.0)(vue@3.2.47)
@@ -312,11 +312,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@nanostores/persistent@0.8.0(nanostores@0.8.0):
-    resolution: {integrity: sha512-R9jfwdcC4CjRgAApOrqjOO0XYXqAMvGGK1L5ztPl9xAEtECSrE2BbEJcHqZULNf40/dFJbi2Qdu0zKSvvSNbEQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
+  /@nanostores/persistent@0.9.0(nanostores@0.8.0):
+    resolution: {integrity: sha512-9OvMOWs0NRiFXmZQXYsb7vGKTt+3XM0/gHl/gGdRTGvYBSaUwJrcmrOx8oc2jmj3QEGoT7JoeUStTGZUy0fSsw==}
+    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     peerDependencies:
-      nanostores: ^0.8.0
+      nanostores: ^0.9.0
     dependencies:
       nanostores: 0.8.0
     dev: false
