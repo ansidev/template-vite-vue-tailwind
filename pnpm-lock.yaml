@@ -3,16 +3,16 @@ lockfileVersion: '6.0'
 dependencies:
   '@nanostores/persistent':
     specifier: ^0.8.0
-    version: 0.8.0(nanostores@0.8.0)
+    version: 0.8.0(nanostores@0.9.0)
   '@nanostores/vue':
     specifier: ^0.8.0
-    version: 0.8.0(nanostores@0.8.0)(vue@3.2.47)
+    version: 0.8.0(nanostores@0.9.0)(vue@3.2.47)
   '@vueuse/head':
     specifier: ^1.1.23
     version: 1.1.23(vue@3.2.47)
   nanostores:
-    specifier: ^0.8.0
-    version: 0.8.0
+    specifier: ^0.9.0
+    version: 0.9.0
   vue:
     specifier: ^3.2.47
     version: 3.2.47
@@ -312,16 +312,16 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@nanostores/persistent@0.8.0(nanostores@0.8.0):
+  /@nanostores/persistent@0.8.0(nanostores@0.9.0):
     resolution: {integrity: sha512-R9jfwdcC4CjRgAApOrqjOO0XYXqAMvGGK1L5ztPl9xAEtECSrE2BbEJcHqZULNf40/dFJbi2Qdu0zKSvvSNbEQ==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       nanostores: ^0.8.0
     dependencies:
-      nanostores: 0.8.0
+      nanostores: 0.9.0
     dev: false
 
-  /@nanostores/vue@0.8.0(nanostores@0.8.0)(vue@3.2.47):
+  /@nanostores/vue@0.8.0(nanostores@0.9.0)(vue@3.2.47):
     resolution: {integrity: sha512-LCSpOAQ+km562UYY/IiZUf7wDPt2R5+VPvMKRApST2Wwgxp3vI3IhppkFKN7qte7UcPGU5lUKBJT9r5a/Un2Bg==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
@@ -332,7 +332,7 @@ packages:
       '@vue/devtools-api':
         optional: true
     dependencies:
-      nanostores: 0.8.0
+      nanostores: 0.9.0
       vue: 3.2.47
     dev: false
 
@@ -1017,9 +1017,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nanostores@0.8.0:
-    resolution: {integrity: sha512-Xgs3qwYhNYXyglDe41JEtACDvFZELFRofDBqBuJ02JG1mrwXWneQTsk89GHvW0bgLPcWXOz4GRm4enwgjnD8FQ==}
-    engines: {node: ^16.0.0 || >=18.0.0}
+  /nanostores@0.9.0:
+    resolution: {integrity: sha512-6s1zA8JZbvMo/sLtcLCeNSlznMEG2RVpDGxi9gsdD0eip7YflxrGJC0ZkX67EFpHagtXpY5Na7jX5xOSOHk+Jw==}
+    engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     dev: false
 
   /node-releases@2.0.8:
