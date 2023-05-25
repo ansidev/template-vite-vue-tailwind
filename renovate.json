@@ -9,6 +9,15 @@
         "*"
       ],
       "rangeStrategy": "replace"
+    },
+    {
+      "groupName": "nanostores",
+      "matchPackageNames": [
+        "nanostores"
+      ],
+      "matchPackagePrefixes": [
+        "@nanostores/"
+      ]
     }
   ]
 }
