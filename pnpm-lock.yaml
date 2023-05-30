@@ -1,12 +1,16 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@nanostores/persistent':
     specifier: ^0.9.0
     version: 0.9.0(nanostores@0.9.0)
   '@nanostores/vue':
-    specifier: ^0.8.0
-    version: 0.8.0(nanostores@0.9.0)(vue@3.2.47)
+    specifier: ^0.9.0
+    version: 0.9.0(nanostores@0.9.0)(vue@3.2.47)
   '@vueuse/head':
     specifier: ^1.1.23
     version: 1.1.23(vue@3.2.47)
@@ -321,8 +325,8 @@ packages:
       nanostores: 0.9.0
     dev: false
 
-  /@nanostores/vue@0.8.0(nanostores@0.9.0)(vue@3.2.47):
-    resolution: {integrity: sha512-LCSpOAQ+km562UYY/IiZUf7wDPt2R5+VPvMKRApST2Wwgxp3vI3IhppkFKN7qte7UcPGU5lUKBJT9r5a/Un2Bg==}
+  /@nanostores/vue@0.9.0(nanostores@0.9.0)(vue@3.2.47):
+    resolution: {integrity: sha512-VUD1yYjgU6OtRYPSSgl+KUc0KGbC4luGQJ4FpBhq5d4K0lLokYFFEM1oc03z5rqZsQAZb7M9YExnxYwn09+gVA==}
     engines: {node: ^16.0.0 || >=18.0.0}
     peerDependencies:
       '@vue/devtools-api': '>=6.1.4'
