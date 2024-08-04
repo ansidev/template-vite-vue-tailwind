@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@nanostores/persistent':
         specifier: ^0.10.1
-        version: 0.10.1(nanostores@0.10.3)
+        version: 0.10.1(nanostores@0.11.0)
       '@nanostores/vue':
         specifier: ^0.10.0
-        version: 0.10.0(nanostores@0.10.3)(vue@3.4.27(typescript@5.4.5))
+        version: 0.10.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))
       '@vueuse/head':
         specifier: ^2.0.0
         version: 2.0.0(vue@3.4.27(typescript@5.4.5))
       nanostores:
-        specifier: ^0.10.3
-        version: 0.10.3
+        specifier: ^0.11.0
+        version: 0.11.0
       vue:
         specifier: ^3.4.27
         version: 3.4.27(typescript@5.4.5)
@@ -731,8 +731,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@0.10.3:
-    resolution: {integrity: sha512-Nii8O1XqmawqSCf9o2aWqVxhKRN01+iue9/VEd1TiJCr9VT5XxgPFbF1Edl1XN6pwJcZRsl8Ki+z01yb/T/C2g==}
+  nanostores@0.11.0:
+    resolution: {integrity: sha512-fT2u3vmWmUt93G9dmUgpnbs3AAYJb6lzu7KrJ1FdC/rjFopGiboS3bfKYv6NNkuY6g6eiRakTR48wKSL/F5C+g==}
     engines: {node: ^18.0.0 || >=20.0.0}
 
   node-releases@2.0.14:
@@ -1147,13 +1147,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  '@nanostores/persistent@0.10.1(nanostores@0.10.3)':
+  '@nanostores/persistent@0.10.1(nanostores@0.11.0)':
     dependencies:
-      nanostores: 0.10.3
+      nanostores: 0.11.0
 
-  '@nanostores/vue@0.10.0(nanostores@0.10.3)(vue@3.4.27(typescript@5.4.5))':
+  '@nanostores/vue@0.10.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))':
     dependencies:
-      nanostores: 0.10.3
+      nanostores: 0.11.0
       vue: 3.4.27(typescript@5.4.5)
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1627,7 +1627,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  nanostores@0.10.3: {}
+  nanostores@0.11.0: {}
 
   node-releases@2.0.14: {}
 
