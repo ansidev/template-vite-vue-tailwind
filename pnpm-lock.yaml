@@ -12,8 +12,8 @@ importers:
         specifier: ^0.10.1
         version: 0.10.1(nanostores@0.11.0)
       '@nanostores/vue':
-        specifier: ^0.10.0
-        version: 0.10.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))
+        specifier: ^0.11.0
+        version: 0.11.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))
       '@vueuse/head':
         specifier: ^2.0.0
         version: 2.0.0(vue@3.4.27(typescript@5.4.5))
@@ -255,13 +255,13 @@ packages:
     peerDependencies:
       nanostores: ^0.9.0 || ^0.10.0
 
-  '@nanostores/vue@0.10.0':
-    resolution: {integrity: sha512-832RAUbzRfHPs1CdqVEwfvgB2+RD/INji4Zo8bUSEfRO2pQRMMeq479gydnohGpRaa0oNwlfKo7TGFXCghq/1g==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  '@nanostores/vue@0.11.0':
+    resolution: {integrity: sha512-4ndyLhwVFl1xhOnvWuMvYiG4K2rYvkaQWP3nJC1/RwK/dvpDgLPywwv6MnBdFydqbOGuXNaXOEwa3HsG9CujmA==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     peerDependencies:
-      '@nanostores/logger': '>=0.2.3'
-      '@vue/devtools-api': '>=6.5.0'
-      nanostores: '>=0.9.2'
+      '@nanostores/logger': '>=0.4.0'
+      '@vue/devtools-api': '>=7.6.2'
+      nanostores: '>=0.11.3'
       vue: '>=3.3.1'
     peerDependenciesMeta:
       '@nanostores/logger':
@@ -1151,7 +1151,7 @@ snapshots:
     dependencies:
       nanostores: 0.11.0
 
-  '@nanostores/vue@0.10.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))':
+  '@nanostores/vue@0.11.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))':
     dependencies:
       nanostores: 0.11.0
       vue: 3.4.27(typescript@5.4.5)
