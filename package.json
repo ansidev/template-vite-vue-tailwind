@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nanostores/persistent": "^0.10.1",
-    "@nanostores/vue": "^0.10.0",
+    "@nanostores/vue": "^0.11.0",
     "@vueuse/head": "^2.0.0",
     "nanostores": "^0.11.0",
     "vue": "^3.4.27"
