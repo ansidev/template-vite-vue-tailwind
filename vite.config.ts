@@ -1,6 +1,7 @@
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'url'
 import { defineConfig } from 'vite'
+import TailwindCss from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Vue from '@vitejs/plugin-vue'
 import VueComponents from 'unplugin-vue-components/vite'
@@ -15,7 +16,6 @@ export default defineConfig({
   },
   plugins: [
     Vue({
-      reactivityTransform: true,
       include: [/\.vue$/, /\.md$/],
     }),
 
@@ -65,5 +65,7 @@ export default defineConfig({
 
       dts: 'src/components.d.ts',
     }),
+
+    TailwindCss(),
   ]
 })
