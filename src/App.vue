@@ -111,7 +111,7 @@ const count = ref(0)
       </a>
     </div>
     <h1><code class="code">Vite</code> + <code class="code">Vue</code> + <code class="code">TailwindCSS</code></h1>
-    <button class="border border-2 rounded px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700"
+    <button class="border rounded-sm px-4 py-2 hover:bg-gray-300 hover:border-gray-300 hover:text-gray-700"
       type="button" aria-label="Counter button" @click="count++">You click this button {{ count }} times</button>
     <p class="text-center">
       Edit
@@ -132,14 +132,6 @@ const count = ref(0)
 </template>
 
 <style lang="css">
-a {
-  @apply text-blue-800 dark:text-blue-300 underline hover:decoration-dotted;
-}
-
-.code {
-  @apply border rounded p-1 bg-gray-300 text-gray-700;
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
