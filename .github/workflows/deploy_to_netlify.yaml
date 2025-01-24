@@ -73,7 +73,7 @@ jobs:
       - name: Build
         uses: ghacts/static-site@main
         with:
-          node-version: 20
+          node-version: 22
           package-manager: pnpm
           package-manager-version: 9
           skip-lint: true
