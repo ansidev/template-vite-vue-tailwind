@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nanostores/persistent": "^0.10.1",
+    "@nanostores/persistent": "^1.0.0",
     "@nanostores/vue": "^0.11.0",
     "@tailwindcss/vite": "^4.0.0",
     "@vueuse/head": "^2.0.0",
-    "nanostores": "^0.11.0",
+    "nanostores": "^1.0.0",
     "vue": "^3.4.27"
   },
   "devDependencies": {
