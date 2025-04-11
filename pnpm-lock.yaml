@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nanostores/persistent':
-        specifier: ^0.10.1
-        version: 0.10.1(nanostores@0.11.0)
+        specifier: ^1.0.0
+        version: 1.0.0(nanostores@1.0.1)
       '@nanostores/vue':
         specifier: ^0.11.0
-        version: 0.11.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))
+        version: 0.11.0(nanostores@1.0.1)(vue@3.4.27(typescript@5.4.5))
       '@tailwindcss/vite':
         specifier: ^4.0.0
         version: 4.0.0(vite@6.0.0(@types/node@22.8.2)(jiti@2.4.2)(lightningcss@1.29.1)(sass-embedded@1.83.4)(yaml@2.4.2))
@@ -21,8 +21,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0(vue@3.4.27(typescript@5.4.5))
       nanostores:
-        specifier: ^0.11.0
-        version: 0.11.0
+        specifier: ^1.0.0
+        version: 1.0.1
       vue:
         specifier: ^3.4.27
         version: 3.4.27(typescript@5.4.5)
@@ -240,11 +240,11 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@nanostores/persistent@0.10.1':
-    resolution: {integrity: sha512-BMYj47ONmkrPkHfomimtBAwtDNNjO57lw0uk7jB35GHVwixmqWtlK6DVAAbioqwJn9WEaWSB/9Ss5ukBG0NHlQ==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  '@nanostores/persistent@1.0.0':
+    resolution: {integrity: sha512-iuucWTxcxSLwHvcxBTIAwofDc+KO7cw5EiQklAltJX6Ynx/CKTecOCUG76kF42yNnCZZQcMeuIcl99DkxekIig==}
+    engines: {node: ^20.0.0 || >=22.0.0}
     peerDependencies:
-      nanostores: ^0.9.0 || ^0.10.0
+      nanostores: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^1.0.0
 
   '@nanostores/vue@0.11.0':
     resolution: {integrity: sha512-4ndyLhwVFl1xhOnvWuMvYiG4K2rYvkaQWP3nJC1/RwK/dvpDgLPywwv6MnBdFydqbOGuXNaXOEwa3HsG9CujmA==}
@@ -816,9 +816,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanostores@0.11.0:
-    resolution: {integrity: sha512-fT2u3vmWmUt93G9dmUgpnbs3AAYJb6lzu7KrJ1FdC/rjFopGiboS3bfKYv6NNkuY6g6eiRakTR48wKSL/F5C+g==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  nanostores@1.0.1:
+    resolution: {integrity: sha512-kNZ9xnoJYKg/AfxjrVL4SS0fKX++4awQReGqWnwTRHxeHGZ1FJFVgTqr/eMrNQdp0Tz7M7tG/TDaX8QfHDwVCw==}
+    engines: {node: ^20.0.0 || >=22.0.0}
 
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
@@ -1276,13 +1276,13 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@nanostores/persistent@0.10.1(nanostores@0.11.0)':
+  '@nanostores/persistent@1.0.0(nanostores@1.0.1)':
     dependencies:
-      nanostores: 0.11.0
+      nanostores: 1.0.1
 
-  '@nanostores/vue@0.11.0(nanostores@0.11.0)(vue@3.4.27(typescript@5.4.5))':
+  '@nanostores/vue@0.11.0(nanostores@1.0.1)(vue@3.4.27(typescript@5.4.5))':
     dependencies:
-      nanostores: 0.11.0
+      nanostores: 1.0.1
       vue: 3.4.27(typescript@5.4.5)
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1819,7 +1819,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  nanostores@0.11.0: {}
+  nanostores@1.0.1: {}
 
   normalize-path@3.0.0: {}
 
