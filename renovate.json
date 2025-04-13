@@ -1,23 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
+  ],
+  "baseBranches": [
+    "develop"
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "rangeStrategy": "replace"
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     },
     {
-      "groupName": "nanostores",
-      "matchPackageNames": [
-        "nanostores"
-      ],
-      "matchPackagePrefixes": [
-        "@nanostores/"
-      ]
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
     }
-  ]
+  ],
+  "platformAutomerge": true
 }
